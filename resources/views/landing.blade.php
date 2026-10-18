@@ -1145,7 +1145,7 @@
                             <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span>تصدير Excel</li>
                             <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span>حتى 3٬000 سجل / شهر</li>
                         </ul>
-                        <a class="btn btn-ghost" href="https://wa.me/966535815072?text={{ urlencode('مرحباً، أريد الاشتراك في باقة Starter') }}" target="_blank" rel="noopener noreferrer">اطلب الباقة</a>
+                        <a class="btn btn-ghost" href="https://wa.me/966597150026?text={{ urlencode('مرحباً، أريد الاشتراك في باقة Starter') }}" target="_blank" rel="noopener noreferrer">اطلب الباقة</a>
                     </article>
 
                     <article class="price-card featured reveal">
@@ -1165,7 +1165,7 @@
                             <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span>حتى 12٬000 سجل / شهر</li>
                             <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span>دعم عبر واتساب</li>
                         </ul>
-                        <a class="btn btn-primary" href="https://wa.me/966535815072?text={{ urlencode('مرحباً، أريد الاشتراك في باقة Growth') }}" target="_blank" rel="noopener noreferrer">
+                        <a class="btn btn-primary" href="https://wa.me/966597150026?text={{ urlencode('مرحباً، أريد الاشتراك في باقة Growth') }}" target="_blank" rel="noopener noreferrer">
                             ابدأ مع Growth
                             <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
                         </a>
@@ -1186,7 +1186,7 @@
                             <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span>أولوية في الدعم والمتابعة</li>
                             <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span>تهيئة مخصصة لحالات الاستخدام</li>
                         </ul>
-                        <a class="btn btn-ghost" href="https://wa.me/966535815072?text={{ urlencode('مرحباً، أريد الاشتراك في باقة Scale') }}" target="_blank" rel="noopener noreferrer">تواصل للمشاركة</a>
+                        <a class="btn btn-ghost" href="https://wa.me/966597150026?text={{ urlencode('مرحباً، أريد الاشتراك في باقة Scale') }}" target="_blank" rel="noopener noreferrer">تواصل للمشاركة</a>
                     </article>
                 </div>
 
@@ -1231,7 +1231,7 @@
 
     <a
         class="wa-float"
-        href="https://wa.me/966535815072"
+        href="https://wa.me/966597150026"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="تواصل عبر واتساب"

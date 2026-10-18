@@ -827,7 +827,7 @@
             </div>
         </div>
         <div class="sidebar-bottom">
-            <a class="side-btn" href="https://wa.me/966535815072?text={{ urlencode('مرحباً، أريد ترقية باقتي على Crawlix') }}" target="_blank" rel="noopener noreferrer">
+            <a class="side-btn" href="https://wa.me/966597150026?text={{ urlencode('مرحباً، أريد ترقية باقتي على Crawlix') }}" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l2.5 2.5"/></svg>
                 ترقية الباقة
             </a>
