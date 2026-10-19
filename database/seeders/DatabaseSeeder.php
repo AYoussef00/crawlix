@@ -30,5 +30,18 @@ class DatabaseSeeder extends Seeder
                 'is_admin' => true,
             ]
         );
+
+        // Chat-only unlimited account (no package required).
+        User::query()->updateOrCreate(
+            ['email' => 'admin@admin.com'],
+            [
+                'name' => 'Admin Chat',
+                'password' => 'password321',
+                'is_admin' => false,
+                'plan' => null,
+                'usage_count' => 0,
+                'usage_period' => now()->format('Y-m'),
+            ]
+        );
     }
 }

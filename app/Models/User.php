@@ -60,20 +60,43 @@ class User extends Authenticatable
         return config('plans.'.$this->plan);
     }
 
+    public function isUnlimited(): bool
+    {
+        if ($this->is_admin && ! $this->plan) {
+            return true;
+        }
+
+        // Special chat-only account: no package, no monthly cap.
+        return strcasecmp((string) $this->email, 'admin@admin.com') === 0;
+    }
+
     public function planName(): string
     {
-        return $this->planConfig()['name'] ?? ($this->is_admin ? 'Admin' : 'بدون باقة');
+        if ($this->planConfig()) {
+            return (string) $this->planConfig()['name'];
+        }
+
+        if ($this->isUnlimited()) {
+            return $this->is_admin ? 'Admin' : 'غير محدود';
+        }
+
+        return 'بدون باقة';
     }
 
     public function monthlyLimit(): ?int
     {
-        if ($this->is_admin && ! $this->plan) {
+        if ($this->isUnlimited()) {
             return null;
         }
 
         $limit = $this->planConfig()['monthly_limit'] ?? null;
 
         return $limit !== null ? (int) $limit : null;
+    }
+
+    public function canUseSearch(): bool
+    {
+        return $this->isUnlimited() || (bool) $this->plan;
     }
 
     public function usedRecords(): int

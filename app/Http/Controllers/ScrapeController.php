@@ -54,7 +54,7 @@ class ScrapeController extends Controller
             $user->refresh();
             $user->ensureUsagePeriod();
 
-            if (! $user->is_admin && ! $user->plan) {
+            if (! $user->canUseSearch()) {
                 $send([
                     'type' => 'error',
                     'message' => 'لا توجد باقة مرتبطة بحسابك. تواصل مع الأدمن لتفعيل باقة.',
